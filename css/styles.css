@@ -1,0 +1,100 @@
+/* HTML Tag modifications */
+
+body {
+  background-color: crimson;
+  font-family: Ubuntu;
+}
+
+h1 {
+  font-family: Ubuntu;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Ubuntu;
+}
+
+p {
+  color: #0B0500;
+  opacity: 0.75;
+}
+
+a {
+  font-family: Ubuntu;
+}
+
+/* Class modifications */
+
+.container-fluid {
+  padding: 1rem 2rem;
+}
+
+/* Navigation-bar */
+.navbar-brand {
+  color: crimson;
+  font-family: Ubuntu;
+}
+
+/* Contents */
+
+.left-column {
+  font-family: Ubuntu;
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  padding-left: 2.5rem;
+}
+
+.right-column {
+  text-align: center;
+}
+
+/* Download buttons */
+.download-button {
+  /* top, right, left, bottom */
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* Helps so the image won't be so "in your face". */
+  width: 60%;
+  transform: rotateZ(15deg);
+}
+
+/* ID modifications */
+
+#title {
+  background-color: #FE5E41;
+}
+
+#brand-style {
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+  color: white;
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #00A878;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #FE5E41;
+  opacity: 0.75;
+}
