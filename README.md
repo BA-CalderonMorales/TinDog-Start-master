@@ -14,3 +14,11 @@
   2. Modularity: Is it scalable?
   3. Efficiency: How difficult is it to run your code on the server?
   4. Length: Making sure you adhere to DRY. Don't sacrifice readability for length/fun.
+  ____
+<p>Adding specific classes to html tags that are repetitive in nature (i.e. big-heading, section-heading) it's good practice to just name the class name while the html is being written.</p>
+<h3>You can combine selectors:</h3>
+<p>selector1, selector2 { ... }</p>
+<p>h1, p { ... }</p>
+<h3>Or you can use Heirarchical Selectors</h3>
+<p>i.e.: #title .container-fluid { ... } </p>
+<p>overrides: .container-fluid, without changing everywhere else container-fluid is used as a class.</p>

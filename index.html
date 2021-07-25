@@ -24,33 +24,34 @@
 <body>
   <!-- Title -->
   <section id="title">
-    <!-- Nav Bar -->
-    <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand  p-2" id="brand-style" href="#"><strong class="display-4">title</strong></a>
-        <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto p-2">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><strong class="lead" style="color:white">Home</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer"><strong class="lead" style="color:white">Contact</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing"><strong class="lead" style="color:white">Pricing</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta"><strong class="lead" style="color:white">Download</strong></a>
-            </li>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand  p-2" id="brand-style" href="#"><strong class="display-4">title</strong></a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto p-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><strong class="lead" style="color:white">Home</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer"><strong class="lead" style="color:white">Contact</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing"><strong class="lead" style="color:white">Pricing</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta"><strong class="lead" style="color:white">Download</strong></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <div class="row">
@@ -60,7 +61,7 @@
           <div class="row p-3">
             <!-- Greeting -->
             <div class="col left-column">
-              <h1 class="display-1 p-2">
+              <h1 class="display-1 p-2 big-heading">
                 Meet new & interesting dogs nearby.
               </h1>
             </div>
@@ -116,7 +117,6 @@
 
   <!-- Testimonials -->
   <section id="testimonials">
-
     <div class="container-fluid">
       <div id="testimonial-carousel"
         class="carousel slide"
@@ -129,13 +129,13 @@
         </div>
         <div class="carousel-inner">
           <!-- Slide One -->
-          <div class="carousel-item active">
-            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
             <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
             <em>Pebbles, New York</em>
           </div>
           <!-- Slide Two -->
-          <div class="carousel-item">
+          <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
             <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
             <em>Beverly, Illinois</em>
@@ -154,7 +154,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </div>
 
   </section>
@@ -169,17 +168,17 @@
 
   <!-- Pricing -->
   <section id="pricing">
-    <h2>A Plan for Every Dog's Needs</h2>
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
     <div class="row">
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Chihuahua</h3>
+            <h3 class="feature-title">Chihuahua</h3>
           </div>
           <div class="card-body">
-            <h2>Free</h2>
+            <h2 class="price-text">Free</h2>
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
@@ -191,10 +190,10 @@
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Labrador</h3>
+            <h3 class="feature-title">Labrador</h3>
           </div>
           <div class="card-body">
-            <h2>$49 / mo</h2>
+            <h2 class="price-text">$49 / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -206,10 +205,10 @@
       <div class="pricing-column col-lg-4">
         <div class="card">
           <div class="card-header">
-            <h3>Mastiff</h3>
+            <h3 class="feature-title">Mastiff</h3>
           </div>
           <div class="card-body">
-            <h2>$99 / mo</h2>
+            <h2 class="price-text">$99 / mo</h2>
             <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
@@ -225,21 +224,24 @@
 
   <!-- Call to Action -->
   <section id="cta">
-    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
-    <button class="btn btn-lg btn-dark download-button" type="button"><i class="fab fa-apple"></i> Download</button>
-    <button class="btn btn-lg btn-outline-light download-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+    <div class="container-fluid">
+      <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="btn btn-lg btn-dark download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="btn btn-lg btn-outline-light download-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer id="footer">
-    <i class="social-icon fab fa-facebook-f"></i>
-    <i class="social-icon fab fa-twitter"></i>
-    <i class="social-icon fab fa-instagram"></i>
-    <i class="social-icon fas fa-envelope"></i>
-    <p>
-      © Copyright 2021 Template
-    </p>
-
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>
+        © Copyright 2021 Template
+      </p>
+    </div>
   </footer>
 
   <!-- JavaScript -->
