@@ -68,17 +68,32 @@ a {
 /* Title image */
 .title-image {
   padding-top: 2rem;
-  position: absolute;
   right: 15%;
   /* Helps so the image won't be so "in your face". */
-  width: 30%;
+  width: 75%;
   transform: rotateZ(15deg);
 }
 
-/* ID modifications */
-
 #title {
   background-color: #FE5E41;
+}
+
+@media (min-width: 956px) {
+  /* Title image */
+  .title-image {
+    padding-top: 2rem;
+    position: absolute;
+    right: 15%;
+    /* Helps so the image won't be so "in your face". */
+    width: 30%;
+    transform: rotateZ(15deg);
+  }
+
+  /* ID modifications */
+
+  #title {
+    background-color: #FE5E41;
+  }
 }
 
 #brand-style {
@@ -143,6 +158,10 @@ a {
   padding: 7% 15%;
 }
 
+.carousel-inner {
+  padding: 2% 5%;
+}
+
 /* Pricing Section */
 #pricing {
   background-color: #fff;
@@ -153,4 +172,32 @@ a {
 .pricing-column {
   /* top/bottom, left/right */
   padding: 3% 2%;
+}
+
+/* Call to action Section */
+#cta {
+  background-color: #05668D;
+  color: #fff;
+  /* top/bottom, left/right */
+  padding: 7% 15%;
+  text-align: center
+}
+
+.cta-heading {
+  font-family: Ubuntu;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 10px;
 }
