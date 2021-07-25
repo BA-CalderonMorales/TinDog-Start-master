@@ -31,3 +31,4 @@
 <p>Can be an html element combined with a class, or an html element combined with an id.</p>
 <p>Have to all occur within the same element.</p>
 <p>Read from left to right.</p>
+<img src="https://user-images.githubusercontent.com/62074841/126910905-60becd28-f07b-445f-a755-f97b613402d7.png" alt="example of how to combine selectors">
