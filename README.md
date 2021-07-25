@@ -22,5 +22,12 @@
 <h3>Or you can use Heirarchical Selectors</h3>
 <p>i.e.: #title .container-fluid { ... } </p>
 <p>overrides: .container-fluid, without changing everywhere else container-fluid is used as a class.</p>
-<img src="https://user-images.githubusercontent.com/62074841/126910246-7c5036a4-81b1-454a-b6af-17241b48685c.png">
-
+<img src="https://user-images.githubusercontent.com/62074841/126910246-7c5036a4-81b1-454a-b6af-17241b48685c.png" alt="example of heirarchical selecting">
+<p>The heirarchy should be read from right to left. So, for example:</p>
+<p>div <strong>.title</strong> { color: red; }</p>
+<p>The .title is the Child and the div is the Parent.</p>
+<h3>Combined Selectors</h3>
+<p>Syntax: selector1.selector2 { ... } OR selector1#selector2 { ... }</p>
+<p>Can be an html element combined with a class, or an html element combined with an id.</p>
+<p>Have to all occur within the same element.</p>
+<p>Read from left to right.</p>
