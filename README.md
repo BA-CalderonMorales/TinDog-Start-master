@@ -22,3 +22,5 @@
 <h3>Or you can use Heirarchical Selectors</h3>
 <p>i.e.: #title .container-fluid { ... } </p>
 <p>overrides: .container-fluid, without changing everywhere else container-fluid is used as a class.</p>
+<img src="https://user-images.githubusercontent.com/62074841/126910246-7c5036a4-81b1-454a-b6af-17241b48685c.png">
+
