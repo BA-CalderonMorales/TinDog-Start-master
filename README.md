@@ -37,3 +37,5 @@
 <p>It's best to use id's very, very sparingly. Always go towards using classes instead of ids (initially).</p>
 <p>Does not matter if you're using bootstrap in your code. Try to avoid inline styling at all costs, too!</p>
 <p>There are no cases where inline styling cannot be handled in an outside, external stylesheet.</p>
+<p><strong>Complete</strong></p>
+<p>7/27/2021</p>
