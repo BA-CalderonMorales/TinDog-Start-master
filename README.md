@@ -32,3 +32,8 @@
 <p>Have to all occur within the same element.</p>
 <p>Read from left to right.</p>
 <img src="https://user-images.githubusercontent.com/62074841/126910905-60becd28-f07b-445f-a755-f97b613402d7.png" alt="example of how to combine selectors">
+<hr/>
+<h3>The inline element style overrides the id, the id overrides the class, the class overrides the tag.</h3>
+<p>It's best to use id's very, very sparingly. Always go towards using classes instead of ids (initially).</p>
+<p>Does not matter if you're using bootstrap in your code. Try to avoid inline styling at all costs, too!</p>
+<p>There are no cases where inline styling cannot be handled in an outside, external stylesheet.</p>

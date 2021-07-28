@@ -20,6 +20,7 @@ a {
 }
 
 /* Headings */
+
 .big-heading: {
   font-family: Ubuntu;
   color: white;
@@ -38,6 +39,7 @@ a {
 }
 
 /* Contents */
+
 .left-column {
   font-family: Ubuntu;
   color: white;
@@ -51,50 +53,46 @@ a {
 
 #title .container-fluid {
   /* top, left/right, bottom */
-  padding: 3% 7% 15%;
+  padding: 2% 2% 8%;
 }
 
 .container-fluid {
   padding: 7% 15%;
 }
 
+.container-fluid #nav {
+  padding: 1% 1% 1% 1%;
+}
+
+/* .nav-div#nav {
+  padding: 2% 2%;
+} */
+
+/* Sections */
+
+.colored-section#title {
+  background-color: #FE5E41;
+}
+
+.colored-section#testimonials {
+  background-color: #4B3B47;
+  color: #fff;
+}
+
+.colored-section#cta {
+  background-color: #05668D;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Navigation-bar */
+
 .navbar-brand {
   color: crimson;
   font-family: Ubuntu;
-}
-
-/* Title Section */
-.title-image {
-  padding-top: 2rem;
-  right: 15%;
-  /* Helps so the image won't be so "in your face". */
-  width: 75%;
-  transform: rotateZ(15deg);
-}
-
-#title {
-  background-color: #FE5E41;
-  text-align: left;
-}
-
-@media (min-width: 956px) {
-  /* Title image */
-  .title-image {
-    padding-top: 2rem;
-    position: absolute;
-    right: 15%;
-    /* Helps so the image won't be so "in your face". */
-    width: 30%;
-    transform: rotateZ(15deg);
-  }
-
-  /* ID modifications */
-
-  #title {
-    background-color: #FE5E41;
-    text-align: center;
-  }
 }
 
 #brand-style {
@@ -104,16 +102,74 @@ a {
 }
 
 /* Download buttons */
+
 .download-button {
   /* top, right, left, bottom */
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+.title-image {
+  padding-top: 1rem;
+  right: 15%;
+  /* Helps so the image won't be so "in your face". */
+  width: 25%;
+  transform: rotateZ(15deg);
+  position: absolute;
+  z-index: 0;
+}
+
+#title {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 750px) {
+  .title-image {
+    display: none;
+  }
+  .left-column {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .right-column {
+    width: 0;
+    height: auto;
+  }
+}
+
+@media (max-width: 956px) {
+  /* Title image */
+  .title-image {
+    padding: 2rem 2rem;
+    position: absolute;
+    right: 15%;
+    /* Helps so the image won't be so "in your face". */
+    width: 30%;
+    transform: rotateZ(15deg);
+    z-index: 0;
+  }
+
+  /* ID modifications */
+
+  #title {
+    position: relative;
+    z-index: 1;
+  }
+
+  #features {
+    position: relative;
+    z-index: 1;
+  }
+}
+
 /* Features Section */
+
 #features {
   position: relative;
   z-index: 1;
-  background-color: #fff;
 }
 
 .feature-box {
@@ -131,12 +187,6 @@ a {
 }
 
 /* Testimonial Section */
-#testimonials {
-  font-family: Ubuntu;
-  /* top/bottom, left/right */
-  background-color: #4B3B47;
-  color: #fff;
-}
 
 .testimonial-image {
   width: 12%;
@@ -145,11 +195,26 @@ a {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
+@media (max-width: 350px) {
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 540px) {
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
 /* Press Section */
+
 #press {
   background-color: #4B3B47;
   padding-bottom: 3%;
@@ -171,7 +236,6 @@ a {
 
 /* Pricing Section */
 #pricing {
-  background-color: #fff;
   padding: 100px;
 
 }
@@ -187,23 +251,28 @@ a {
 }
 
 /* Call to action Section */
-#cta {
-  background-color: #05668D;
-  color: #fff;
-  /* top/bottom, left/right */
-}
 
 .cta-heading {
-  font-family: Ubuntu;
   font-weight: bolder;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
-/* Footer Section */
-#footer {
-  background-color: #fff;
+@media (max-width: 350px) {
+  .cta-heading {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
+
+@media (max-width: 540px) {
+  .cta-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+/* Footer Section */
 
 .social-icon {
   margin: 10px 10px;
