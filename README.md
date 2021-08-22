@@ -1,5 +1,5 @@
 <h1>TinDog Project</h1>
-<p><strong>Website is up: https://ba-calderonmorales.github.io/TinDog-Start-master/ </strong></p>
+<p><strong>Website is up: https://ba-calderonmorales.github.io/TinDogProject/ </strong></p>
 
 <p>Webpage was created with the assistance of the Udemy:</p>
 <p>https://www.udemy.com/course/the-complete-web-development-bootcamp/.</p>
